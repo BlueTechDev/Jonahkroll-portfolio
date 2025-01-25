@@ -1,9 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const projects = document.querySelectorAll(".project");
-
-    projects.forEach(project => {
-        project.addEventListener("click", function() {
-            alert(`You clicked on ${project.querySelector("h3").textContent}`);
-        });
-    });
+document.getElementById('learn-more-btn').addEventListener('click', function() {
+    alert('More information will be available soon!');
 });
