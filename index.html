@@ -23,32 +23,40 @@
         <section id="home" class="section home">
             <h1>Welcome to My Cybersecurity Portfolio</h1>
             <p>Exploring, protecting, and simplifying the digital world one step at a time.</p>
-            <button id="learn-more-btn">Learn More</button>
+            <button id="learn-more-btn"><a href="#about">Learn More</a></button>
         </section>
         
         <section id="about" class="section about">
             <h2>About Me</h2>
-            <p>
-                I am an aspiring cybersecurity analyst with a strong foundation in IT and tech education. 
-                My goal is to protect digital environments, simplify technology for everyone, and empower 
-                others with secure solutions. I specialize in building hands-on labs, analyzing network traffic, 
-                and exploring ethical hacking techniques.
-            </p>
+            <div class="card">
+                <p>
+                    I am an aspiring cybersecurity analyst with a strong foundation in IT and tech education. 
+                    My goal is to protect digital environments, simplify technology for everyone, and empower 
+                    others with secure solutions. I specialize in building hands-on labs, analyzing network traffic, 
+                    and exploring ethical hacking techniques.
+                </p>
+                <a href="about.html" class="btn">Read More</a>
+            </div>
         </section>
 
-                <section id="projects" class="section projects">
+        <section id="projects" class="section projects">
             <h2>Featured Projects</h2>
-            <div class="project">
-                <h3>Network Traffic Analysis</h3>
-                <p>Captured and analyzed network traffic using Wireshark, focusing on MDNS, DNS, and ICMPv6 protocols to detect anomalies and improve network security.</p>
-            </div>
-            <div class="project">
-                <h3>Firewall Implementation</h3>
-                <p>Configured UFW on Ubuntu to block unauthorized access, allow essential services, and document firewall rules for enhanced security.</p>
-            </div>
-            <div class="project">
-                <h3>Simulated Penetration Testing</h3>
-                <p>Used Kali Linux to perform vulnerability scans, simulate brute force attacks, and conduct ethical hacking on a controlled network environment.</p>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Network Traffic Analysis</h3>
+                    <p>Analyzed traffic using Wireshark to detect anomalies and improve network security.</p>
+                    <a href="projects/network-analysis.html" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Firewall Implementation</h3>
+                    <p>Configured UFW to block unauthorized access and allow essential services.</p>
+                    <a href="projects/firewall-implementation.html" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Simulated Penetration Testing</h3>
+                    <p>Performed vulnerability scans and ethical hacking using Kali Linux.</p>
+                    <a href="projects/penetration-testing.html" class="btn">View Project</a>
+                </div>
             </div>
         </section>
 
@@ -60,6 +68,7 @@
                 <li><strong>Systems:</strong> Ubuntu, Kali Linux, macOS, UTM virtualization.</li>
                 <li><strong>Certifications:</strong> Google Cybersecurity Certificate (in progress).</li>
             </ul>
+            <a href="skills.html" class="btn">Explore More Skills</a>
         </section>
 
         <section id="contact" class="section contact">
@@ -70,6 +79,7 @@
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/jonahkroll" target="_blank">linkedin.com/in/jonahkroll</a></li>
                 <li>GitHub: <a href="https://github.com/jonahkroll" target="_blank">github.com/jonahkroll</a></li>
             </ul>
+            <a href="contact.html" class="btn">Contact Form</a>
         </section>
 
     </main>
